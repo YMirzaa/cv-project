@@ -1,0 +1,16 @@
+#content{
+    padding: 2% 8%;
+    display: flex;
+    gap: 40px;
+}
+
+#input-field{
+    flex: 1;
+    padding: 1%;
+    background-color:#f3ecec;
+}
+
+#cv-display{
+    flex: 1;
+
+}

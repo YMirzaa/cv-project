@@ -1,0 +1,112 @@
+.top-display{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    display: flex;
+    flex-direction: column;
+    background-color: #151d3b;
+    height: 20vh;
+    box-sizing: border-box;
+    padding: 2%;
+    gap: 15%;
+}
+
+.top-display .title-display{
+    font-weight:100;
+    font-size: 2rem;
+}
+
+.mid-content-display{
+    display: flex;
+    color: #151d3b;
+}
+
+.mid-left-display{
+    flex: 2;
+    padding: 25px;
+    background-color: #eeeeee;
+    height: 75vh;
+}
+
+
+.name-surname-display{
+    display: flex;
+    gap: 10px;
+}
+
+.explanation-display{
+    border-bottom: 1px solid gray;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.first-display{
+    padding-bottom:  10%;
+}
+
+
+
+/* below-right-display */
+.mid-right-display{
+    flex: 1;
+    padding: 25px;
+    background-color: #dddddd;
+}
+
+.mid-right-display > :first-child{
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+
+}
+
+.second-display > :first-child{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 1000;
+}
+
+.second-display > :nth-child(2){
+    font-size: 1.2rem;
+    color:gray ;
+    font-weight: bold;
+}
+
+.education-answer-display{
+    display: flex;
+    gap: 30px;
+    font-size: 1.3rem;
+
+}
+
+.university-city-display{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.university-city-display> :first-child{
+    font-weight: bold;
+
+}
+
+.experience-answer-display{
+    display: flex;
+    gap: 30px;
+    font-size: 1.3rem;
+
+}
+
+.experience-position-display{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-position-display> :first-child{
+    font-weight: bold;
+
+}
